@@ -1,7 +1,7 @@
 ## DBNinja Installation Instructions 
 
 ##
-During the installation enter the DBNinja container and look for the 5 digits number
+During the installation enter the DBNinja container and look for the 5 digits number, to prove your admin capabilities and access to the server. 
 
 * login to you VM
 * sudo docker ps
