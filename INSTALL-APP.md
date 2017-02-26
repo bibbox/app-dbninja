@@ -1,4 +1,14 @@
-## LimeSurvey Installation Instructions 
+## DBNinja Installation Instructions 
+
+##
+During the installation enter the DBNinja container and look for the 5 digits number
+
+* login to you VM
+* sudo docker exec -it INSTANCEBANE-dbninja /bin/bash
+* cd /data/dbninja/_users/
+* ls
+
+put the filename into your installation window. 
 
 ## After the installation
 
