@@ -12,5 +12,3 @@
 ## Install Environment Variables
 
 ## Mounted Volumes
-
-* the WEB folder  _/data/www_ will be mounted to _/opt/apps/INSTANCE_NAME/data/www in your BIBBOX kit 
