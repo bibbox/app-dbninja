@@ -6,16 +6,6 @@ services:
     container_name:  §§INSTANCE-dbninja
     ports:
       - "§§PORT:80"
-    depends_on:
-      - §§INSTANCE-dbninja-data
-    volumes_from: 
-      - §§INSTANCE-dbninja-data
-
-  §§INSTANCE-dbninja-data:
-    image: busybox
-    container_name: §§INSTANCE-dbninja-data
-    volumes:
-      - ./data/www:/data/www
 
 networks:
     default:
