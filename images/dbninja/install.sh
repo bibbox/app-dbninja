@@ -1,7 +1,7 @@
 #!/bin/bash
 chmod 755 /data
 cd /data
-wget https://www.dbninja.com/download/dbninja.tar.gz
+wget --no-check-certificate https://www.dbninja.com/download/dbninja.tar.gz
 mkdir /data/www && cd /data/www && rm -rf /var/www && ln /data/www /var/www -s
 tar zxf /data/dbninja.tar.gz
 chown -R www-data:www-data /data/www
