@@ -9,6 +9,7 @@ services:
   §§INSTANCE-dbninja:
     image: bibbox/dbninja
     container_name:  §§INSTANCE-dbninja
+    restart: unless-stopped
     networks:
       - bibbox-default-network
     ports:
