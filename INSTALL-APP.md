@@ -6,7 +6,7 @@ During the installation enter the DBNinja container and look for the 5 digits nu
 * login to you VM
 * sudo docker ps
 * sudo docker exec -it INSTANCENAME-dbninja /bin/bash
-* cd /data/dbninja/_users/
+* cd /data/www/dbninja/_users
 * ls
 
 ## After the installation
